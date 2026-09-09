@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriela & Otávio ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="floating-hearts" aria-hidden="true"></div>
+
+<header>
+  <a class="logo" href="#inicio">Gabriela <span>♡</span> Otávio</a>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#fotos">Nossas Fotos</a>
+    <a href="#carta">Nossa primeira carta</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+    <p class="eyebrow">UMA HISTÓRIA SÓ NOSSA</p>
+    <h1>Algumas memórias que eu nunca quero esquecer.</h1>
+    <p class="hero-text">Um cantinho feito para guardar nossas fotos, nossos momentos e as palavras que significam tanto para mim.</p>
+    <div class="hero-actions">
+      <a class="button" href="#fotos">Ver nossas fotos ❤️</a>
+      <a class="button ghost" href="#carta">Ler nossa primeira carta</a>
+    </div>
+  </div>
+</section>
+
+<section class="gallery-section" id="fotos">
+  <div class="section-title">
+    <p class="eyebrow">♡ NOSSOS MOMENTOS ♡</p>
+    <h2>Nossas fotos</h2>
+    <span>Clique em uma foto para abrir e ver a lembrança.</span>
+  </div>
+  <div class="gallery">
+    <button class="photo-card" onclick="openPhoto('https://media.discordapp.net/attachments/1342325731597881460/1547052689983016960/44E16587-95CA-4DE9-8677-77F039B97444.jpg?ex=6aa20498&is=6aa0b318&hm=05af71b3a7971a21c7ff13e3ca2ba67fb8be1a6a8d6d01e818570c4092bc7d85&=&format=webp&width=577&height=1024','Seu sorriso','Seu sorriso é uma das coisas mais lindas em você. Ele ilumina tudo ao redor e deixa qualquer momento muito mais especial. ❤️')">
+      <img src="https://media.discordapp.net/attachments/1342325731597881460/1547052689983016960/44E16587-95CA-4DE9-8677-77F039B97444.jpg?ex=6aa20498&is=6aa0b318&hm=05af71b3a7971a21c7ff13e3ca2ba67fb8be1a6a8d6d01e818570c4092bc7d85&=&format=webp&width=577&height=1024" alt="O começo de tudo" loading="lazy"><span>01</span>
+    </button><button class="photo-card" onclick="openPhoto('https://media.discordapp.net/attachments/1342325731597881460/1547052690310168716/IMG_3603.jpg?ex=6aa20498&is=6aa0b318&hm=4bd73637ddd7104f4916bc47453916b8ee0c6ffafc07644bb4783c630e75f303&=&format=webp&width=575&height=1024','Seus olhos','Eu não consigo explicar o tanto que os seus olhos são bonitos. Eles têm um brilho único, daqueles que prendem meu olhar e fazem eu me apaixonar ainda mais por você. ❤️')">
+      <img src="https://media.discordapp.net/attachments/1342325731597881460/1547052690310168716/IMG_3603.jpg?ex=6aa20498&is=6aa0b318&hm=4bd73637ddd7104f4916bc47453916b8ee0c6ffafc07644bb4783c630e75f303&=&format=webp&width=575&height=1024" alt="Um momento especial" loading="lazy"><span>02</span>
+    </button><button class="photo-card" onclick="openPhoto('https://media.discordapp.net/attachments/1342325731597881460/1547052690755026995/IMG_3564.jpg?ex=6aa20498&is=6aa0b318&hm=0c51d25fada3d84c19ee5f5d0b7852c67449b5358eaf2b2f7c6aaab4d0be7444&=&format=webp&width=575&height=1024','Qualquer lugar com você','Não importa onde a gente esteja. Qualquer lugar fica especial quando estou com você, porque é a sua companhia que faz o momento valer a pena. ❤️')">
+      <img src="https://media.discordapp.net/attachments/1342325731597881460/1547052690755026995/IMG_3564.jpg?ex=6aa20498&is=6aa0b318&hm=0c51d25fada3d84c19ee5f5d0b7852c67449b5358eaf2b2f7c6aaab4d0be7444&=&format=webp&width=575&height=1024" alt="Seu sorriso" loading="lazy"><span>03</span>
+    </button><button class="photo-card" onclick="openPhoto('https://media.discordapp.net/attachments/1342325731597881460/1547052691128328342/IMG_3465.jpg?ex=6aa20498&is=6aa0b318&hm=51e291c0c83ac3b14be80eaf1bd5edc5bd5c5b8440f6599db8aaa9ddd47d26b4&=&format=webp&width=575&height=1024','Seus cachos','Seu cabelo é lindo, principalmente do jeitinho natural, cacheado. Amo a forma como os seus cachos combinam com você e deixam você ainda mais linda. ❤️')">
+      <img src="https://media.discordapp.net/attachments/1342325731597881460/1547052691128328342/IMG_3465.jpg?ex=6aa20498&is=6aa0b318&hm=51e291c0c83ac3b14be80eaf1bd5edc5bd5c5b8440f6599db8aaa9ddd47d26b4&=&format=webp&width=575&height=1024" alt="Nós" loading="lazy"><span>04</span>
+    </button><button class="photo-card" onclick="openPhoto('fotos/foto5.svg','Uma lembrança','Mais um daqueles momentos que eu queria poder reviver.')">
+      <img src="fotos/foto5.svg" alt="Uma lembrança" loading="lazy"><span>05</span>
+    </button><button class="photo-card" onclick="openPhoto('fotos/foto6.svg','Para sempre','Que essa seja apenas uma das muitas histórias que ainda vamos viver.')">
+      <img src="fotos/foto6.svg" alt="Para sempre" loading="lazy"><span>06</span>
+    </button>
+  </div>
+</section>
+
+<section class="letter-section" id="carta">
+  <div class="letter-layout">
+    <div class="letter-photo">
+      <img src="https://cdn.discordapp.com/attachments/1502143356233318492/1544779929122513010/2e784808-0f0b-43fc-a643-cd265cada3b0.jpg?ex=6aa1a8eb&is=6aa0576b&hm=6b120edecb3aa7c16a05ae5253b0bb87a74ccb8b7c0835d0ea644937a21c3896&" alt="Uma lembrança especial de Gabriela e Otávio" loading="lazy">
+      <div class="photo-heart">♡</div>
+    </div>
+  <div class="letter">
+    <div class="letter-top">
+      <p class="eyebrow">NOSSA PRIMEIRA CARTA</p>
+      <div class="date-heart">♡</div>
+    </div>
+    <h2>Minha querida Gabriela,</h2>
+    <div class="letter-body">
+      <p>Quero que saiba que eu amo a sua companhia, amo os seus cachos e acredito que isso é o que mais define você. Amo os seus olhos e amo ainda mais a forma como eles brilham quando estamos juntos. Gosto do seu jeito de ser, do seu sorriso, das nossas conversas e do jeito que a gente deixa bem na cara que está com saudade um do outro KKKKKKK.</p>
+      <p>Te conheci há pouco tempo, mas, em tão pouco tempo, você já se tornou muito importante para mim. É engraçado como alguém pode, em tão pouco tempo, se tornar tão importante pra mim.</p>
+      <p><strong>Eu te amo.</strong></p>
+      <p>Desde a primeira vez que te vi, eu sabia que você tinha algo diferente de todas as outras meninas. E hoje, depois de te conhecer melhor, eu já tenho certeza disso.</p>
+      <p>Desde que você entrou na minha vida, algumas coisas simplesmente ficaram diferentes. Deus sabe colocar as pessoas certas na nossa vida, no momento certo. Eu estava me afastando aos poucos, e Ele colocou você no meu caminho, alguém que sempre me apoia e que me chama para ir aos luais, ao DNJ e às missas com você.</p>
+      <p>E talvez você nem saiba o quanto isso significa para mim. Não é apenas sobre ir a esses lugares, mas sobre ter alguém ao meu lado que me incentiva a me aproximar novamente de Deus e que compartilha comigo momentos que, para mim, estão se tornando cada vez mais especiais.</p>
+      <p>E, se quando você estiver lendo esta carta pensar no que eu estava sentindo enquanto a escrevia, quero que saiba que eu estava pensando na gente e sorrindo para um papel.</p>
+    </div>
+    <div class="signature">Com carinho,<br><strong>Otávio ❤️</strong></div>
+  </div>
+  </div>
+</section>
+</main>
+
+<footer>♡ Feito especialmente para Gabriela ♡</footer>
+
+<div class="modal" id="modal" onclick="closePhoto()">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <button class="close" onclick="closePhoto()" aria-label="Fechar">×</button>
+    <div class="modal-image"><img id="modalImage" src="" alt=""></div>
+    <div class="modal-text">
+      <p class="eyebrow">NOSSA MEMÓRIA</p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="big-heart">♡</div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
